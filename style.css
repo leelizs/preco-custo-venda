@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkslategray;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+button {
+    background-color: #04AA6D;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#btn {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+#btn:hover {
+    background-color: #555555;
+    color: white;
+}
+
+#btn-custo {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+#btn-custo:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.title-page {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.container-page {
+    text-align: center;
+    padding: 20px;
+}
+
+#trocarTexto {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.tenho-custo-title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container-tenho-custo {
+    text-align: center;
+    padding: 20px;
+}
+
+#trocarTextoCusto {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+input {
+    background-color: white;
+    border: none;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+input {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+input:hover {
+    background-color: #555555;
+    color: white;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#footer-leelizs {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#footer-leelizs:hover {
+    color: rgb(0, 0, 255);
+}

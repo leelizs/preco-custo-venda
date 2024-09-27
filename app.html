@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Preços</title>
+</head>
+
+<body>
+    <h1 class="title-page">Descubra o Custo e Venda</h1>
+    <div class="container-page">
+        <input type="text" id="fardo" placeholder="Fardo" onfocus="this.value='';" title="Calcule o Fardo">
+        <input type="text" id="dividir" placeholder="Dividir" onfocus="this.value='';" title="Dividir o Fardo">
+        <input type="text" id="percentual" placeholder="Percentual" onfocus="this.value='';" title="Percentual de Ganho">
+        <button id="btn" title="Calcular">Calcular</button>
+        <h2 id="trocarTexto" title="Calcule Algo">Calcule algo</h2>
+    </div>
+    <div class="tenho-custo-title">
+        <h1>Ja tem o Custo?</h1>
+        <div class="container-tenho-custo">
+            <input type="text" id="custo" placeholder="Custo" onfocus="this.value='';" title="Digite o Custo">
+            <input type="text" id="percentual-custo" placeholder="Percentual" onfocus="this.value='';" title="Percentual de Ganho">
+            <button id="btn-custo" title="Calcular">Calcular</button>
+            <h2 id="trocarTextoCusto" title="Calcule Algo">Calcule algo</h2>
+        </div>
+        <footer>
+            <p title="Direitos Reservados"><a href="https://github.com/leelizs" id="footer-leelizs" title="Repositório GitHub" target="_blank">Leelizs</a> -
+                Todos os direitos Reservados</p>
+        </footer>
+        <script src="custo.js"></script>
+</body>
+
+</html>
