@@ -13,22 +13,43 @@
     <div class="container-page">
         <input type="text" id="fardo" placeholder="Fardo" onfocus="this.value='';" title="Calcule o Fardo">
         <input type="text" id="dividir" placeholder="Dividir" onfocus="this.value='';" title="Dividir o Fardo">
-        <input type="text" id="percentual" placeholder="Percentual" onfocus="this.value='';" title="Percentual de Ganho">
-        <button id="btn" title="Calcular">Calcular</button>
-        <h2 id="trocarTexto" title="Calcule Algo">Calcule algo</h2>
+        <input type="text" id="percentual" placeholder="Percentual" onfocus="this.value='';"
+            title="Percentual de Ganho">
+        <button id="btn" title="Calcular" class="modal-btn" data-action="acao1">Calcular</button>
+
+    </div>
+    <div id="modal">
+        <div class="modal-body">
+            <h1>Fardo</h1>
+            <h2 id="trocarTextoFardo" title="Custo">Não especificado.</h2>
+            <h1 id="title-custo">Custo</h1>
+            <h2 id="trocarTextoCusto" title="Custo"></h2>
+            <h1>Venda</h1>
+            <h2 id="trocarTextoVenda" title="Venda"></h2>
+            <h1>Percentual</h1>
+            <h2 id="trocarTextoPercentual" title="Venda"></h2>
+            <div class="container-btn">
+                <button id="btn-close">Fechar</button>
+            </div>
+        </div>
+    </div>
+    </div>
     </div>
     <div class="tenho-custo-title">
         <h1>Ja tem o Custo?</h1>
         <div class="container-tenho-custo">
             <input type="text" id="custo" placeholder="Custo" onfocus="this.value='';" title="Digite o Custo">
-            <input type="text" id="percentual-custo" placeholder="Percentual" onfocus="this.value='';" title="Percentual de Ganho">
-            <button id="btn-custo" title="Calcular">Calcular</button>
-            <h2 id="trocarTextoCusto" title="Calcule Algo">Calcule algo</h2>
+            <input type="text" id="percentual-custo" placeholder="Percentual" onfocus="this.value='';"
+                title="Percentual de Ganho">
+            <button id="btn-custo" title="Calcular" class="modal-btn" data-action="acao2">Calcular</button>
         </div>
-        <footer>
-            <p title="Direitos Reservados"><a href="https://github.com/leelizs" id="footer-leelizs" title="Repositório GitHub" target="_blank">Leelizs</a> -
-                Todos os direitos Reservados</p>
-        </footer>
+        <div class="container-footer">
+            <footer>
+                <p title="Direitos Reservados"><a href="https://github.com/leelizs" id="footer-leelizs"
+                        title="Repositório GitHub" target="_blank">Leelizs</a> -
+                    Todos os Direitos Reservados</p>
+            </footer>
+        </div>
         <script src="custo.js"></script>
 </body>
 
